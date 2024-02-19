@@ -12,6 +12,10 @@ LABEL maintainer="aptalca"
 RUN \
   echo "**** install runtime packages ****" && \
   apk add --no-cache --upgrade \
+    tmux \
+    git \
+    zsh \
+    stow \
     logrotate \
     nano \
     netcat-openbsd \
